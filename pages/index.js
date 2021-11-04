@@ -85,7 +85,7 @@ export default function Home() {
                             </li>
                         </ul>
                     </div>
-                    <div className="flex-grow h-auto ...">
+                    <div className="flex-grow h-auto small-screen-padding ...">
                         <div className="flex justify-center item-center">
                             <div>
                                 <div className="flex m-auto div-w">
