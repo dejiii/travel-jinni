@@ -14,3 +14,30 @@
     font-size: 2.8rem;
     line-height: 50px;
 }
+
+@media screen and (max-width: 768px) {
+    .trips {
+        display: block;
+    }
+
+    .trip {
+        margin-top: 30px;
+    }
+    .div-w {
+        display: block;
+        width: 100%;
+    }
+    .logo-small {
+        display: flex;
+        margin: 0;
+    }
+    .rm-m {
+        margin-left: 0;
+    }
+    .absolute {
+        display: none;
+    }
+    .trip-wrapper {
+        padding-bottom: 40px !important;
+    }
+}

@@ -10,10 +10,10 @@ export default function Home() {
             </Head>
 
             <div className="container mx-auto py-6">
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center trips">
                     <div>
                         <p>Remaining Days To My Trip</p>
-                        <div className="flex mt-2">
+                        <div className="flex mt-2 ">
                             <div className="flex-col text-center mr-3 w-10">
                                 <h2 className={styles.pFlexT}>10</h2>
                                 <p className={styles.txtSpan}>Weeks</p>
@@ -36,7 +36,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex">
+                    <div className="flex trip">
                         <p className="px-2">My Trips</p>
                         <div className="flex">
                             <p className="px-2">|</p>
@@ -89,14 +89,14 @@ export default function Home() {
                         <div className="flex justify-center item-center">
                             <div>
                                 <div className="flex m-auto div-w">
-                                    <div className="rounded-full w-20 h-20 p-2 flex items-center justify-center bg-white">
+                                    <div className="rounded-full w-20 h-20 p-2 flex items-center justify-center bg-white logo-small">
                                         <img
                                             src="/logo.png"
                                             className="w-18 h-18 rounded-full"
                                             alt="loading"
                                         />
                                     </div>
-                                    <div className="ml-4 text-center border border-white flex-grow">
+                                    <div className="ml-4 text-center border border-white flex-grow rm-m">
                                         <h1 className="text-4xl font-bold font-mono tracking-wide px-3 py-1">
                                             HILTON HOTEL
                                         </h1>
@@ -106,7 +106,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="m-auto div-w text-center border mt-2 pt-8 px-4 bg-gray-400 bg-opacity-10 blur-filter rounded-md">
+                                    <div className="m-auto div-w text-center border mt-2 pt-8 px-4 bg-gray-400 bg-opacity-10 blur-filter rounded-md trip-wrapper">
                                         <h1 className="text-5xl font-serif font-bold pb-5 px-4">
                                             Your Trip Awaits You!
                                         </h1>
